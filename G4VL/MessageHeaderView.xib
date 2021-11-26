@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="JosefinSans-SemiBold.ttf">
+            <string>JosefinSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view opaque="NO" contentMode="scaleToFill" id="iN0-l3-epB" customClass="MessageHeaderView" customModule="G4VL" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A1V-oa-Nik">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colchester to Dorset" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JY8-kb-OgR">
+                            <rect key="frame" x="8" y="12" width="136" height="17"/>
+                            <fontDescription key="fontDescription" name="JosefinSans-SemiBold" family="Josefin Sans" pointSize="17"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Fq-Rn-16K">
+                            <rect key="frame" x="227" y="15" width="140" height="40"/>
+                            <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="dV5-eO-MpZ"/>
+                                <constraint firstAttribute="width" constant="140" id="r4H-Fc-8To"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="JosefinSans-SemiBold" family="Josefin Sans" pointSize="13"/>
+                            <state key="normal" title="VIEW READ/UNREAD">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="viewAll" destination="iN0-l3-epB" eventType="touchUpInside" id="HUc-8A-RmI"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10th June - 11th Jun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ceg-Ne-sK3">
+                            <rect key="frame" x="8" y="42" width="119.5" height="16"/>
+                            <fontDescription key="fontDescription" name="JosefinSans-SemiBold" family="Josefin Sans" pointSize="16"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="5Fq-Rn-16K" firstAttribute="centerY" secondItem="A1V-oa-Nik" secondAttribute="centerY" id="8Ey-y6-RuC"/>
+                        <constraint firstItem="JY8-kb-OgR" firstAttribute="top" secondItem="A1V-oa-Nik" secondAttribute="top" constant="12" id="NKF-8O-Cyz"/>
+                        <constraint firstItem="JY8-kb-OgR" firstAttribute="leading" secondItem="A1V-oa-Nik" secondAttribute="leading" constant="8" id="b20-i2-SWP"/>
+                        <constraint firstAttribute="trailing" secondItem="5Fq-Rn-16K" secondAttribute="trailing" constant="8" id="ekd-gx-Ttg"/>
+                        <constraint firstItem="Ceg-Ne-sK3" firstAttribute="leading" secondItem="A1V-oa-Nik" secondAttribute="leading" constant="8" id="mZn-XU-rbG"/>
+                        <constraint firstAttribute="bottom" secondItem="Ceg-Ne-sK3" secondAttribute="bottom" constant="12" id="rvg-qG-eaQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="A1V-oa-Nik" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="47C-gy-u0R"/>
+                <constraint firstItem="A1V-oa-Nik" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="V30-U0-gCE"/>
+                <constraint firstItem="A1V-oa-Nik" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="v0J-i4-9aS"/>
+                <constraint firstItem="A1V-oa-Nik" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="wTN-om-ya4"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="bottomLabel" destination="Ceg-Ne-sK3" id="sSL-kD-Ymx"/>
+                <outlet property="topLabel" destination="JY8-kb-OgR" id="ReL-Fe-04Y"/>
+            </connections>
+            <point key="canvasLocation" x="-3.5" y="-36"/>
+        </view>
+    </objects>
+</document>

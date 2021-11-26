@@ -1,0 +1,1010 @@
+[
+  {
+    "name" : "windscreen",
+    "key":"windscreen",
+    "label":"Windscreen",
+    "damages" : [
+      {
+        "label" : "scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "light damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "chipped",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "cracked",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "hood",
+    "key":"bonnet",
+    "label":"Bonnet",
+    "damages" : [
+      {
+        "label" : "Scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Stone Chips",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Dented",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Buckled",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Major Damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "roof",
+    "key" : "roof",
+    "label" :"Roof",
+    "damages" : [
+      {
+        "label" : "Scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Dented",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Major Damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Minor Damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "front-bumper",
+    "key":"front_bumper",
+    "label":"Front Bumper",
+    "damages" : [
+      {
+        "label" : "Scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Stone Chips",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Dented",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Major Damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Minor Damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "rear-window",
+    "key":"rear_window",
+    "label":"Rear Window",
+    "damages" : [
+      {
+        "label" : "Smashed",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Light crack",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Major crack",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "inside",
+    "key":"inside",
+    "label":"Interior",
+    "damages" : [
+      {
+        "label" : "Driver Seat - Ripped",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Driver Seat - Light damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Driver Seat - Major Damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Passenger Seat - Ripped",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Passenger Seat - Light damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Passenger Seat - Major Damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Back Seats - Ripped",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Back Seats - Light damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Back Seats - Major Damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "back-light-passenger",
+    "key":"back_light_passenger",
+    "label":"Passenger Side Rear Light",
+    "damages" : [
+      {
+        "label" : "Chipped",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Cracked",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Bulb off/blown",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "driver-head-light",
+    "key":"driver_head_light",
+    "label":"Driver Side Headlight",
+    "damages" : [
+      {
+        "label" : "Chipped",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Cracked",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Bulb off/blown",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "passenger-head-light",
+    "key":"passenger_head_light",
+    "label":"Passenger Side Headlight",
+    "damages" : [
+      {
+        "label" : "Chipped",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Cracked",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Bulb off/blown",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "front-driver-alloy",
+    "key":"front_driver_alloy",
+    "label":"Driver Side Front Alloy",
+    "damages" : [
+      {
+        "label" : "scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "chipped",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "front-passenger-alloy",
+    "key":"front_passenger_alloy",
+    "label":"Passenger Side Front Alloy",
+    "damages" : [
+      {
+        "label" : "scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "chipped",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "passenger-wing-mirror",
+    "key":"passenger_wing_mirror",
+    "label":"Passenger Side Wing Mirror",
+    "damages" : [
+      {
+        "label" : "cracked",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "smashed",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "driver-wing-mirror",
+    "key":"driver_wing_mirror",
+    "label":"Driver Side Wing Mirror",
+    "damages" : [
+      {
+        "label" : "cracked",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "smashed",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "back-bumper",
+    "key":"back_bumper",
+    "label":"Rear Bumper",
+    "damages" : [
+      {
+        "label" : "Scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Stone Chips",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Dented",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Major Damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Minor Damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "back-light-driver",
+    "key":"back_light_driver",
+    "label":"Driver Side Taillight",
+    "damages" : [
+      {
+        "label" : "Chipped",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Cracked",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Bulb off/blown",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "boot",
+    "key":"boot",
+    "label":"Boot",
+    "damages" : [
+      {
+        "label" : "dented",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "major damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "back-driver-alloy",
+    "key":"back_driver_alloy",
+    "label":"Driver Side Rear Alloy",
+    "damages" : [
+      {
+        "label" : "scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "chipped",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "back-passenger-alloy",
+    "key":"back_passenger_alloy",
+    "label":"Passenger Side Rear Alloy",
+    "damages" : [
+      {
+        "label" : "scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "chipped",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "back-driver-door",
+    "key":"back_driver_door",
+    "label":"Driver Side Rear Door",
+    "damages" : [
+      {
+        "label" : "dented",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "edge chip",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "major damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "minor damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "back-driver-window",
+    "key":"back_driver_window",
+    "label":"Driver Side Rear Window",
+    "damages" : [
+      {
+        "label" : "smashed",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "cracked",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "major damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "back-passenger-door",
+    "key":"back_passenger_door",
+    "label":"Passenger Side Rear Door",
+    "damages" : [
+      {
+        "label" : "dented",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "edge chip",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "major damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "minor damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "back-passenger-window",
+    "key":"back_passenger_window",
+    "label":"Passenger Side Rear Window",
+    "damages" : [
+      {
+        "label" : "smashed",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "cracked",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "major damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "front-driver-window",
+    "key":"front_driver_window",
+    "label":"Driver Side Front Window",
+    "damages" : [
+      {
+        "label" : "smashed",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "major damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "crached",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "front-driver-door",
+    "key":"front_driver_door",
+    "label":"Driver Side Front Door",
+    "damages" : [
+      {
+        "label" : "dented",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "edge chip",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "major damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "minor damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "front-passenger-window",
+    "key":"front_passenger_window",
+    "label":"Passenger Side Front Window",
+    "damages" : [
+      {
+        "label" : "smashed",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "cracked",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "major crack",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "front-passenger-door",
+    "key":"front_passenger_door",
+    "label":"Passenger Side Front Door",
+    "damages" : [
+      {
+        "label" : "dented",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "edge chip",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "major damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "minor damage",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "back-driver-tyre",
+    "key":"back_driver_tyre",
+    "label":"Driver Side Rear Tyre",
+    "damages" : [
+      {
+        "label" : "Puncture",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Scuffs",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Low Tread",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Tears",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "back-passenger-tyre",
+    "key":"back_passenger_tyre",
+    "label":"Passenger Side Rear Tyre",
+    "damages" : [
+      {
+        "label" : "Puncture",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Scuffs",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Low Tread",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Tears",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "front-driver-tyre",
+    "key":"front_driver_tyre",
+    "label":"Driver Side Front Tyre",
+    "damages" : [
+      {
+        "label" : "Puncture",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Scuffs",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Low Tread",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Tears",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "front-passenger-tyre",
+    "key":"front_passenger_tyre",
+    "label":"Passenger Side Front Tyre",
+    "damages" : [
+      {
+        "label" : "Puncture",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Scuffs",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Low Tread",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Tears",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "front-driver-panel",
+    "key":"front_driver_panel",
+    "label":"Driver Side Front Panel",
+    "damages" : [
+      {
+        "label" : "scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Light Crack / Broken",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Dented",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Major Repair",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "back-driver-panel",
+    "key":"back_driver_panel",
+    "label":"Driver Side Rear Panel",
+    "damages" : [
+      {
+        "label" : "scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Light Crack / Broken",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Dented",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Major Repair",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "front-passenger-panel",
+    "key":"front_passenger_panel",
+    "label":"Passenger Side Front Panel",
+    "damages" : [
+      {
+        "label" : "scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Light Crack / Broken",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Dented",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Major Repair",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  },
+  {
+    "name" : "back-passenger-panel",
+    "key":"back_passenger_panel",
+    "label":"Passenger Side Rear Panel",
+    "damages" : [
+      {
+        "label" : "scratched",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Light Crack / Broken",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Dented",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "Major Repair",
+        "state":false,
+        "identifier" : "switch"
+      },
+      {
+        "label" : "notes",
+        "identifier" : "notes"
+      }
+    ]
+  }
+]
+
+
+
+

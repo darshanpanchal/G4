@@ -1,0 +1,1 @@
+{"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"API Key Missing","status":401,"detail":"Your request did not include an API key.","instance":""}

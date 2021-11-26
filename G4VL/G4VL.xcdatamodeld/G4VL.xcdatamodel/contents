@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Damage" representedClassName="Damage" syncable="YES" codeGenerationType="class">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="options" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="selected" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="vehicalPart" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VehiclePart" inverseName="damages" inverseEntity="VehiclePart" syncable="YES"/>
+    </entity>
+    <entity name="Expenses" representedClassName="Expenses" syncable="YES" codeGenerationType="class">
+        <attribute name="cost" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="photo64" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="job" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Job" inverseName="expenses" inverseEntity="Job" syncable="YES"/>
+    </entity>
+    <entity name="Job" representedClassName="Job" syncable="YES" codeGenerationType="class">
+        <attribute name="clientName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="complete" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="dropOffAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dropOffDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pickUpAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pickUpDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortJourneyDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vehicleDecription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vehicleType" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="expenses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Expenses" inverseName="job" inverseEntity="Expenses" syncable="YES"/>
+        <relationship name="manualAppraisal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ManualAppraisal" inverseName="job" inverseEntity="ManualAppraisal" syncable="YES"/>
+        <relationship name="mileage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Mileage" inverseName="job" inverseEntity="Mileage" syncable="YES"/>
+        <relationship name="numberPlate" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="NumberPlate" inverseName="job" inverseEntity="NumberPlate" syncable="YES"/>
+        <relationship name="petrolLevel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PetrolLevel" inverseName="job" inverseEntity="PetrolLevel" syncable="YES"/>
+        <relationship name="videoAppraisal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VideoAppraisal" inverseName="job" inverseEntity="VideoAppraisal" syncable="YES"/>
+        <relationship name="warningLight" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="WarningLight" inverseName="job" inverseEntity="WarningLight" syncable="YES"/>
+    </entity>
+    <entity name="ManualAppraisal" representedClassName="ManualAppraisal" syncable="YES" codeGenerationType="class">
+        <attribute name="complete" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photos64" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <relationship name="job" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Job" inverseName="manualAppraisal" inverseEntity="Job" syncable="YES"/>
+        <relationship name="vehicalParts" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="VehiclePart" inverseName="manualAppraisal" inverseEntity="VehiclePart" syncable="YES"/>
+        <relationship name="vehicleDetailSections" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="VehicleDetailSection" inverseName="manualAppraisal" inverseEntity="VehicleDetailSection" syncable="YES"/>
+    </entity>
+    <entity name="Mileage" representedClassName="Mileage" syncable="YES" codeGenerationType="class">
+        <attribute name="manualEntry" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo64" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="job" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Job" inverseName="mileage" inverseEntity="Job" syncable="YES"/>
+    </entity>
+    <entity name="NumberPlate" representedClassName="NumberPlate" syncable="YES" codeGenerationType="class">
+        <attribute name="plate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scanned" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="job" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Job" inverseName="numberPlate" inverseEntity="Job" syncable="YES"/>
+    </entity>
+    <entity name="PetrolLevel" representedClassName="PetrolLevel" syncable="YES" codeGenerationType="class">
+        <attribute name="manualEntry" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="photo64" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="job" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Job" inverseName="petrolLevel" inverseEntity="Job" syncable="YES"/>
+    </entity>
+    <entity name="VehicleDetailRow" representedClassName="VehicleDetailRow" syncable="YES" codeGenerationType="class">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="options" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="selected" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="vehicleDetailSection" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VehicleDetailSection" inverseName="vehicleDetailRows" inverseEntity="VehicleDetailSection" syncable="YES"/>
+    </entity>
+    <entity name="VehicleDetailSection" representedClassName="VehicleDetailSection" syncable="YES" codeGenerationType="class">
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="manualAppraisal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ManualAppraisal" inverseName="vehicleDetailSections" inverseEntity="ManualAppraisal" syncable="YES"/>
+        <relationship name="vehicleDetailRows" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="VehicleDetailRow" inverseName="vehicleDetailSection" inverseEntity="VehicleDetailRow" syncable="YES"/>
+    </entity>
+    <entity name="VehiclePart" representedClassName="VehiclePart" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photos64" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="damages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Damage" inverseName="vehicalPart" inverseEntity="Damage" syncable="YES"/>
+        <relationship name="manualAppraisal" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ManualAppraisal" inverseName="vehicalParts" inverseEntity="ManualAppraisal" syncable="YES"/>
+    </entity>
+    <entity name="VideoAppraisal" representedClassName="VideoAppraisal" syncable="YES" codeGenerationType="class">
+        <attribute name="thumbnail64" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <relationship name="job" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Job" inverseName="videoAppraisal" inverseEntity="Job" syncable="YES"/>
+    </entity>
+    <entity name="WarningLight" representedClassName="WarningLight" syncable="YES" codeGenerationType="class">
+        <attribute name="photo64" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="job" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Job" inverseName="warningLight" inverseEntity="Job" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Expenses" positionX="-423" positionY="234" width="128" height="105"/>
+        <element name="Job" positionX="-693" positionY="-91" width="128" height="313"/>
+        <element name="ManualAppraisal" positionX="-425" positionY="-279" width="128" height="133"/>
+        <element name="Mileage" positionX="-425" positionY="-117" width="128" height="90"/>
+        <element name="NumberPlate" positionX="-423" positionY="-513" width="128" height="90"/>
+        <element name="PetrolLevel" positionX="-423" positionY="9" width="128" height="90"/>
+        <element name="VehicleDetailRow" positionX="-20" positionY="-378" width="128" height="148"/>
+        <element name="VehicleDetailSection" positionX="-218" positionY="-360" width="128" height="88"/>
+        <element name="VideoAppraisal" positionX="-425" positionY="-396" width="128" height="88"/>
+        <element name="WarningLight" positionX="-425" positionY="126" width="128" height="73"/>
+        <element name="VehiclePart" positionX="-191" positionY="-153" width="128" height="133"/>
+        <element name="Damage" positionX="79" positionY="-150" width="128" height="133"/>
+    </elements>
+</model>

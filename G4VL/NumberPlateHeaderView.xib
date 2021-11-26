@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="JosefinSans-Bold.ttf">
+            <string>JosefinSans-Bold</string>
+        </array>
+        <array key="UKNumberPlate.ttf">
+            <string>UKNumberPlate</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="NumberPlateHeaderView" id="U6b-Vx-4bR" customClass="NumberPlateHeaderView" customModule="G4VL" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="454" height="271"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yft-Jy-nqa" customClass="UIControl">
+                    <rect key="frame" x="0.0" y="0.0" width="454" height="263"/>
+                    <subviews>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OmQ-Wu-j3l">
+                            <rect key="frame" x="16" y="16" width="422" height="231"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GWI-AW-4eL">
+                                    <rect key="frame" x="20" y="0.0" width="382" height="231"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YVO-fD-eky">
+                                    <rect key="frame" x="0.0" y="20" width="422" height="191"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Akx-GW-gXP">
+                                    <rect key="frame" x="8" y="8" width="406" height="215"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" red="0.2274509804" green="0.2274509804" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstItem="Akx-GW-gXP" firstAttribute="leading" secondItem="OmQ-Wu-j3l" secondAttribute="leading" constant="8" id="3Ru-Os-okl"/>
+                                <constraint firstItem="YVO-fD-eky" firstAttribute="leading" secondItem="OmQ-Wu-j3l" secondAttribute="leading" id="41V-0e-VUV"/>
+                                <constraint firstAttribute="bottom" secondItem="GWI-AW-4eL" secondAttribute="bottom" id="D8Z-yE-jpH"/>
+                                <constraint firstAttribute="bottom" secondItem="Akx-GW-gXP" secondAttribute="bottom" constant="8" id="Ibw-5W-gSb"/>
+                                <constraint firstItem="GWI-AW-4eL" firstAttribute="leading" secondItem="OmQ-Wu-j3l" secondAttribute="leading" constant="20" id="NH3-ne-sr2"/>
+                                <constraint firstAttribute="trailing" secondItem="Akx-GW-gXP" secondAttribute="trailing" constant="8" id="UwA-SD-c5Q"/>
+                                <constraint firstAttribute="trailing" secondItem="YVO-fD-eky" secondAttribute="trailing" id="VwM-i8-v6X"/>
+                                <constraint firstItem="GWI-AW-4eL" firstAttribute="top" secondItem="OmQ-Wu-j3l" secondAttribute="top" id="bi3-T3-rue"/>
+                                <constraint firstAttribute="bottom" secondItem="YVO-fD-eky" secondAttribute="bottom" constant="20" id="hlF-bm-j2m"/>
+                                <constraint firstAttribute="trailing" secondItem="GWI-AW-4eL" secondAttribute="trailing" constant="20" id="oAI-gK-daF"/>
+                                <constraint firstItem="YVO-fD-eky" firstAttribute="top" secondItem="OmQ-Wu-j3l" secondAttribute="top" constant="20" id="t5g-Cp-cID"/>
+                                <constraint firstItem="Akx-GW-gXP" firstAttribute="top" secondItem="OmQ-Wu-j3l" secondAttribute="top" constant="8" id="zXf-Z0-47a"/>
+                            </constraints>
+                        </view>
+                        <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ig4-i1-Wwf">
+                            <rect key="frame" x="16" y="26" width="422" height="211"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCAN REG PLATE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSH-lP-CWK">
+                                    <rect key="frame" x="8" y="8" width="406" height="21"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="21" id="ubt-KT-Wfr"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="JosefinSans-Bold" family="Josefin Sans" pointSize="15"/>
+                                    <color key="textColor" red="0.2274509804" green="0.2274509804" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="XAMPLE1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.85000002384185791" translatesAutoresizingMaskIntoConstraints="NO" id="gmb-Ml-tmV">
+                                    <rect key="frame" x="105.5" y="81" width="211.5" height="49"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="49" id="yH3-Fq-Za9"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="UKNumberPlate" family="UKNumberPlate" pointSize="60"/>
+                                    <color key="textColor" red="0.2274509804" green="0.2274509804" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="gmb-Ml-tmV" secondAttribute="trailing" constant="8" id="4fC-nZ-7PQ"/>
+                                <constraint firstItem="gmb-Ml-tmV" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ig4-i1-Wwf" secondAttribute="leading" constant="8" id="MSZ-48-5Aw"/>
+                                <constraint firstItem="gmb-Ml-tmV" firstAttribute="centerX" secondItem="ig4-i1-Wwf" secondAttribute="centerX" id="W9N-ug-TXE"/>
+                                <constraint firstAttribute="trailing" secondItem="XSH-lP-CWK" secondAttribute="trailing" constant="8" id="WhO-ff-bCc"/>
+                                <constraint firstItem="gmb-Ml-tmV" firstAttribute="centerY" secondItem="ig4-i1-Wwf" secondAttribute="centerY" id="mXI-2S-XKP"/>
+                                <constraint firstItem="XSH-lP-CWK" firstAttribute="leading" secondItem="ig4-i1-Wwf" secondAttribute="leading" constant="8" id="roe-12-LCi"/>
+                                <constraint firstItem="XSH-lP-CWK" firstAttribute="top" secondItem="ig4-i1-Wwf" secondAttribute="top" constant="8" id="wTt-Zy-xhN"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="ig4-i1-Wwf" secondAttribute="trailing" constant="16" id="5yz-Ai-yli"/>
+                        <constraint firstItem="OmQ-Wu-j3l" firstAttribute="top" secondItem="yft-Jy-nqa" secondAttribute="top" constant="16" id="EfK-Ab-hNT"/>
+                        <constraint firstAttribute="trailing" secondItem="OmQ-Wu-j3l" secondAttribute="trailing" constant="16" id="FYD-fQ-6IA"/>
+                        <constraint firstItem="OmQ-Wu-j3l" firstAttribute="leading" secondItem="yft-Jy-nqa" secondAttribute="leading" constant="16" id="GBt-Gr-RQO"/>
+                        <constraint firstAttribute="bottom" secondItem="ig4-i1-Wwf" secondAttribute="bottom" constant="26" id="Qja-td-1OY"/>
+                        <constraint firstItem="ig4-i1-Wwf" firstAttribute="top" secondItem="yft-Jy-nqa" secondAttribute="top" constant="26" id="ZZ2-ky-7L9"/>
+                        <constraint firstAttribute="bottom" secondItem="OmQ-Wu-j3l" secondAttribute="bottom" constant="16" id="fE3-jG-ET7"/>
+                        <constraint firstItem="ig4-i1-Wwf" firstAttribute="leading" secondItem="yft-Jy-nqa" secondAttribute="leading" constant="16" id="fWa-Tf-Sfj"/>
+                    </constraints>
+                    <connections>
+                        <action selector="tappedHeader" destination="U6b-Vx-4bR" eventType="touchUpInside" id="fmv-xc-jAj"/>
+                    </connections>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="yft-Jy-nqa" secondAttribute="trailing" id="Dqq-Pd-p3f"/>
+                <constraint firstItem="yft-Jy-nqa" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="G5F-ta-GUE"/>
+                <constraint firstAttribute="bottom" secondItem="yft-Jy-nqa" secondAttribute="bottom" constant="8" id="hec-Ui-EZQ"/>
+                <constraint firstItem="yft-Jy-nqa" firstAttribute="top" secondItem="VXr-Tz-HHm" secondAttribute="top" id="kJM-C7-aVB"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <connections>
+                <outlet property="containerView" destination="yft-Jy-nqa" id="vQC-D4-5aQ"/>
+                <outlet property="corners" destination="OmQ-Wu-j3l" id="8GD-gU-Tyr"/>
+                <outlet property="lblReg" destination="gmb-Ml-tmV" id="Kb3-dG-TVr"/>
+                <outlet property="lblScanState" destination="XSH-lP-CWK" id="bLV-qf-8WQ"/>
+                <outletCollection property="nonCorners" destination="Akx-GW-gXP" collectionClass="NSMutableArray" id="BlS-F6-DDx"/>
+                <outletCollection property="nonCorners" destination="YVO-fD-eky" collectionClass="NSMutableArray" id="aFI-Go-GpU"/>
+                <outletCollection property="nonCorners" destination="GWI-AW-4eL" collectionClass="NSMutableArray" id="cDC-ty-1jD"/>
+            </connections>
+            <point key="canvasLocation" x="36.799999999999997" y="25.637181409295355"/>
+        </collectionReusableView>
+    </objects>
+</document>

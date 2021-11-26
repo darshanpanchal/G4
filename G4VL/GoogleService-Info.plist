@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>851451992843-1h8deugndp0nsr3gq4ighbself9re9qe.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.851451992843-1h8deugndp0nsr3gq4ighbself9re9qe</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBkgDI7SW536YPhVqpJfuUCs_KzK5IedkU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>851451992843</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>co.uk.G4.G4-Driver</string>
+	<key>PROJECT_ID</key>
+	<string>g4-driver-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>g4-driver-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:851451992843:ios:0b46ace80776c1ce</string>
+	<key>DATABASE_URL</key>
+	<string>https://g4-driver-app.firebaseio.com</string>
+</dict>
+</plist>

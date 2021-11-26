@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="JosefinSans-Bold.ttf">
+            <string>JosefinSans-Bold</string>
+        </array>
+        <array key="JosefinSans-SemiBold.ttf">
+            <string>JosefinSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AppraisalCell" id="gTV-IL-0wX" customClass="AppraisalCell" customModule="G4VL" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="261" height="277"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="261" height="277"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EvE-jV-7Gy">
+                        <rect key="frame" x="0.0" y="0.0" width="261" height="277"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bw9-he-KAg">
+                                <rect key="frame" x="0.0" y="0.0" width="261" height="277"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="dRX-ma-Xfx">
+                                <rect key="frame" x="8" y="82" width="245" height="113"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="paperwork" translatesAutoresizingMaskIntoConstraints="NO" id="RnO-dV-ToQ">
+                                        <rect key="frame" x="82.5" y="0.0" width="80" height="80"/>
+                                        <color key="tintColor" red="0.2274509804" green="0.2274509804" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="80" id="Oxh-pz-GW1"/>
+                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="80" id="eYO-d0-TYu"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fleet Paperwork" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gm2-eT-VVx">
+                                        <rect key="frame" x="69.5" y="88" width="106" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="jsg-98-nqf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="JosefinSans-Bold" family="Josefin Sans" pointSize="16"/>
+                                        <color key="textColor" red="0.2274509804" green="0.2274509804" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2kf-aM-RY8">
+                                <rect key="frame" x="0.0" y="0.0" width="261.5" height="277"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">NOT
+REQUIRED</string>
+                                <fontDescription key="fontDescription" name="JosefinSans-Bold" family="Josefin Sans" pointSize="25"/>
+                                <color key="textColor" red="0.80000000000000004" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQ5-Wj-aed">
+                                <rect key="frame" x="0.0" y="0.0" width="261" height="277"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">EXTERNAL APPRAISAL:
+
+UNKNOWN EXTERNAL SYSTEM</string>
+                                <fontDescription key="fontDescription" name="JosefinSans-SemiBold" family="Josefin Sans" pointSize="16"/>
+                                <color key="textColor" red="0.2274509804" green="0.2274509804" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="dRX-ma-Xfx" firstAttribute="centerY" secondItem="EvE-jV-7Gy" secondAttribute="centerY" id="3Ri-tK-ML0"/>
+                            <constraint firstItem="yQ5-Wj-aed" firstAttribute="top" secondItem="3u8-a7-woX" secondAttribute="top" id="6GL-Lm-Rad"/>
+                            <constraint firstItem="3u8-a7-woX" firstAttribute="bottom" secondItem="yQ5-Wj-aed" secondAttribute="bottom" id="7lC-wu-YDo"/>
+                            <constraint firstItem="Bw9-he-KAg" firstAttribute="leading" secondItem="3u8-a7-woX" secondAttribute="leading" id="9k6-7T-DeO"/>
+                            <constraint firstItem="3u8-a7-woX" firstAttribute="bottom" secondItem="Bw9-he-KAg" secondAttribute="bottom" id="Aup-Ew-gdN"/>
+                            <constraint firstAttribute="trailing" secondItem="2kf-aM-RY8" secondAttribute="trailing" constant="-0.5" id="Ffe-DN-p56"/>
+                            <constraint firstItem="yQ5-Wj-aed" firstAttribute="leading" secondItem="3u8-a7-woX" secondAttribute="leading" id="Gt0-pz-zWB"/>
+                            <constraint firstItem="3u8-a7-woX" firstAttribute="trailing" secondItem="yQ5-Wj-aed" secondAttribute="trailing" id="K7m-Rd-EPr"/>
+                            <constraint firstItem="Bw9-he-KAg" firstAttribute="top" secondItem="3u8-a7-woX" secondAttribute="top" id="LBQ-gz-h10"/>
+                            <constraint firstItem="dRX-ma-Xfx" firstAttribute="top" relation="greaterThanOrEqual" secondItem="3u8-a7-woX" secondAttribute="top" constant="8" id="NVG-fP-Zng"/>
+                            <constraint firstItem="3u8-a7-woX" firstAttribute="trailing" secondItem="dRX-ma-Xfx" secondAttribute="trailing" constant="8" id="Odc-Th-h1d"/>
+                            <constraint firstItem="3u8-a7-woX" firstAttribute="trailing" secondItem="Bw9-he-KAg" secondAttribute="trailing" id="Sct-zE-DHM"/>
+                            <constraint firstItem="2kf-aM-RY8" firstAttribute="leading" secondItem="EvE-jV-7Gy" secondAttribute="leading" id="TAC-rN-U2M"/>
+                            <constraint firstAttribute="bottom" secondItem="2kf-aM-RY8" secondAttribute="bottom" id="WUo-LE-ZJR"/>
+                            <constraint firstItem="dRX-ma-Xfx" firstAttribute="centerX" secondItem="EvE-jV-7Gy" secondAttribute="centerX" id="gbk-A3-deB"/>
+                            <constraint firstItem="2kf-aM-RY8" firstAttribute="top" secondItem="EvE-jV-7Gy" secondAttribute="top" id="jpt-ar-W5C"/>
+                            <constraint firstItem="3u8-a7-woX" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="dRX-ma-Xfx" secondAttribute="bottom" constant="8" id="n57-dA-gFz"/>
+                            <constraint firstItem="dRX-ma-Xfx" firstAttribute="leading" secondItem="3u8-a7-woX" secondAttribute="leading" constant="8" id="q9d-AI-pE7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3u8-a7-woX"/>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="EvE-jV-7Gy" secondAttribute="trailing" id="HXC-ew-fE9"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="EvE-jV-7Gy" secondAttribute="top" id="Jmp-et-q0Q"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="leading" secondItem="EvE-jV-7Gy" secondAttribute="leading" id="b6D-Ju-eFo"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="EvE-jV-7Gy" secondAttribute="bottom" id="nLy-GF-fJ2"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="261" height="277"/>
+            <connections>
+                <outlet property="backgroundView" destination="Bw9-he-KAg" id="T2F-Dl-LPk"/>
+                <outlet property="externalSystemLabel" destination="yQ5-Wj-aed" id="Dz4-9j-C9O"/>
+                <outlet property="iconImageView" destination="RnO-dV-ToQ" id="onu-2U-nTD"/>
+                <outlet property="notRequiredLabel" destination="2kf-aM-RY8" id="Yzp-H1-RKW"/>
+                <outlet property="selectedBackgroundView" destination="Bw9-he-KAg" id="eqk-2B-SUm"/>
+                <outlet property="titleLabel" destination="gm2-eT-VVx" id="XD0-Wb-4XG"/>
+            </connections>
+            <point key="canvasLocation" x="-31.199999999999999" y="117.39130434782609"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="paperwork" width="256" height="256"/>
+    </resources>
+</document>

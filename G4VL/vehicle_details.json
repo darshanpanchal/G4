@@ -1,0 +1,202 @@
+[
+  {
+    "label" : "Weather",
+    "vehicle_detail_rows" : [
+      {
+        "label" : "Weather",
+        "key":"weather",
+        "options" : [
+          "Dry",
+          "Wet",
+          "Snow",
+          "Ice"
+        ],
+        "selected" : 0,
+        "identifier" : "radio"
+      }
+    ]
+  },
+  {
+    "label" : "Visibility",
+    "vehicle_detail_rows" : [
+      {
+        "label" : "Visibility",
+        "key":"visibility",
+        "options" : [
+          "Dark",
+          "Sunny",
+          "Cloudy"
+        ],
+        "selected" : 0,
+        "identifier" : "radio"
+      }
+    ]
+  },
+  {
+    "label" : "Number of Keys",
+    "vehicle_detail_rows" : [
+      {
+        "label" : "Number of Keys",
+        "key":"number_of_keys",
+        "max" : 4,
+        "min" : 1,
+        "step" : 1,
+        "value" : 0,
+        "identifier" : "slider"
+      }
+    ]
+  },
+  {
+    "label" : "Number of Carpet Mats",
+    "vehicle_detail_rows" : [
+      {
+        "label" : "Number of Carpet Mats",
+        "key":"number_of_carpet_mats",
+        "max" : 10,
+        "min" : 0,
+        "step" : 1,
+        "value" : 0,
+        "identifier" : "slider"
+      }
+    ]
+  },
+  {
+    "label" : "Condition of Sill",
+    "vehicle_detail_rows" : [
+      {
+        "label" : "Condition of Sill",
+        "key":"condition_of_sill",
+        "options" : [
+          "Good",
+          "Fair",
+          "Poor"
+        ],
+        "selected" : 0,
+        "identifier" : "radio"
+      }
+    ]
+  },
+  {
+    "label" : "Interior",
+    "vehicle_detail_rows" : [
+      {
+        "identifier" : "switch",
+        "label" : "Does it smell of smoke?",
+        "key":"does_it_smell_of_smoke",
+        "state" : false
+      },
+        {
+        "identifier" : "switch",
+        "label" : "Charging Cable?",
+        "key":"does_charging_cable_attached",
+        "state" : false
+      }
+    ]
+  },
+  {
+    "label" : "Condition/Contents",
+    "vehicle_detail_rows" : [
+      {
+        "identifier" : "switch",
+        "label" : "Clean Exterior",
+        "key":"clean_exterior",
+
+        "state" : false
+      },
+      {
+        "identifier" : "switch",
+        "label" : "Exterior stickers present? (please remove)",
+        "key":"exterior_stickers_present",
+
+        "state" : false
+      },
+      {
+        "identifier" : "switch",
+        "label" : "Tool & Jack",
+        "key":"tool_and_jack",
+
+        "state" : false
+      },
+      {
+        "identifier" : "switch",
+        "label" : "Spare Wheel",
+        "key":"spare_wheel",
+
+        "state" : false
+      },
+      {
+        "identifier" : "switch",
+        "label" : "Parcel Shelf",
+        "key":"parcel_shelf",
+
+        "state" : false
+      },
+      {
+        "identifier" : "switch",
+        "label" : "Aerial",
+        "key":"aerial",
+
+        "state" : false
+      },
+      {
+        "identifier" : "switch",
+        "label" : "Head Rests",
+        "key":"head_rests",
+
+        "state" : false
+      },
+      {
+        "identifier" : "switch",
+        "label" : "Locking Wheel Nut",
+        "key":"locking_wheel_nut",
+
+        "state" : false
+      },
+      {
+        "identifier" : "switch",
+        "label" : "Sat Nav Disc/SD Card",
+        "key":"sat_nav_disc_sd_card",
+
+        "state" : false
+      },
+      {
+        "identifier" : "switch",
+        "label" : "Inflation Kit",
+        "key":"inflation_kit",
+
+        "state" : false
+      },
+      {
+        "identifier" : "switch",
+        "label" : "Service Book",
+        "key":"service_book",
+
+        "state" : false
+      },
+      {
+        "identifier" : "switch",
+        "label" : "V5 Registration Document",
+        "key":"v5_registration_document",
+        "state" : false
+      },
+      {
+        "identifier" : "switch",
+        "label" : "Handbooks",
+        "key":"handbook",
+
+        "state" : false
+      }
+    ]
+  },
+  {
+    "label" : "Add Notes",
+    "vehicle_detail_rows" : [
+      {
+        "label" : "Notes",
+        "key":"notes",
+        "identifier" : "notes"
+      }
+    ]
+  }
+]
+
